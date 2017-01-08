@@ -1,0 +1,52 @@
+{
+	"errorCode": 0,
+	"errorMsg": "",
+	"start": 1,
+		"datas":[{
+			"listtype": "秋款连衣裙",
+			"listlink": "./images2/woman/1.jpg"
+		},{	
+			"listtype": "毛针织衫",
+			"listlink": "./images2/woman/2.jpg"
+		},{	
+			"listtype": "牛仔裤",
+			"listlink": "./images2/woman/3.jpg"
+		},{	
+			"listtype": "短外套",
+			"listlink": "./images2/woman/4.jpg"
+		},{
+			"listtype": "T恤",
+			"listlink": "./images2/woman/5.jpg"
+		},{	
+			"listtype": "衬衫",
+			"listlink": "./images2/woman/6.jpg"
+		},{	
+			"listtype": "真丝连衣裙",
+			"listlink": "./images2/woman/7.jpg"
+		},{	
+			"listtype": "棉麻连衣裙",
+			"listlink": "./images2/woman/8.jpg"
+		},{	
+			"listtype": "蕾丝连衣裙",
+			"listlink": "./images2/woman/9.jpg"
+		},{	
+			"listtype": "针织连衣裙",
+			"listlink": "./images2/woman/10.jpg"
+		},{	
+			"listtype": "大码连衣裙",
+			"listlink": "./images2/woman/11.jpg"
+		},{
+			"listtype": "套装裙",
+			"listlink": "./images2/woman/12.jpg"
+		},{	
+			"listtype": "背带裙",
+			"listlink": "./images2/woman/13.jpg"
+		},{	
+			"listtype": "半身裙",
+			"listlink": "./images2/woman/14.jpg"
+		},{	
+			"listtype": "牛仔裙",
+			"listlink": "./images2/woman/15.jpg"
+		}
+	],
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>baobei</title>
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/baobei.css">
+	<script type="text/javascript" src="js/libs/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script>
+	<script>
+      if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+            document.write('<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />');
+        } else if (/(Android)/i.test(navigator.userAgent)) {
+            document.write('<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />');
+        }
+  	</script>
+  	<script type="text/javascript">
+		!(function(doc, win) {
+		    var docEle = doc.documentElement,
+		        evt = "onorientationchange" in window ? "orientationchange" : "resize",
+		        fn = function() {
+		            var width = docEle.clientWidth;
+		            width && (docEle.style.fontSize = 16 * (width / 375) + "px");
+		        };
+		    win.addEventListener(evt, fn, false);
+		    doc.addEventListener("DOMContentLoaded", fn, false);		 
+		}(document, window));
+	</script>
+</head>
+<body>
+	<header>
+		<div class="head-head">
+			<div class="head-homepage">
+				
+			</div>
+			<div class="head-search">
+				<select>
+					<option>宝贝</option>
+					<option>店铺</option>
+					<option>天猫</option>
+				</select>
+				<input type="text" name="">
+			</div>
+		</div>						
+	</header>
+	<section>
+		<nav>
+			<div class="content-left">
+				<div class="content-nav content-price">
+					<select>
+						<option>综合排序</option>
+						<option>价格从高到低</option>
+						<option>价格从低到高</option>
+						<option>信用排序</option>
+					</select>
+				</div>
+				<div class="content-nav content-mass">
+					<p>质量优先</p>
+				</div>
+				<div class="content-nav content-filter">
+					<span>筛选</span>
+				</div>
+			</div>
+			<div class="content-nav content-change">
+				
+			</div>			
+		</nav>
+		<div class="content-list" id="list">
+			<ul>
+				<common-list v-for="item in commonList" v-bind:common="item"></common-list>
+			</ul>
+		</div>		
+	</section>	
+</body>
+<script type="text/javascript" src="js/baobei.js"></script>
+</html>

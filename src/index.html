@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>进度条</title>
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<script>
+      if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+            document.write('<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />');
+        } else if (/(Android)/i.test(navigator.userAgent)) {
+            document.write('<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />');
+        }
+  	</script>
+  	<script type="text/javascript">
+		!(function(doc, win) {
+		    var docEle = doc.documentElement,
+		        evt = "onorientationchange" in window ? "orientationchange" : "resize",
+		        fn = function() {
+		            var width = docEle.clientWidth;
+		            width && (docEle.style.fontSize = 16 * (width / 375) + "px");
+		        };
+		    win.addEventListener(evt, fn, false);
+		    doc.addEventListener("DOMContentLoaded", fn, false);		 
+		}(document, window));
+	</script>
+</head>
+<body>
+	<div class="out">
+		<span class="percent">0</span>	
+		<div class="bar">
+			<div class="one"></div>
+			<div class="two"></div>
+		</div>
+		<div class=" character">
+			<p>Loading</p>
+			<p>Please Wait...</p>
+		</div>		
+	</div>	
+</body>
+<script type="text/javascript" data-main="js/common/main" src="js/libs/require.js"></script>
+</html>

@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #3b3b3b;
+}
+a{
+	text-decoration:none;
+}
+li {
+	list-style: none;
+}
+body{
+    font-family: Microsoft YaHei;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+input{
+	outline: none;
+}
+input:focus{
+	border: none;
+}
+input,
+select{
+	border: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+}

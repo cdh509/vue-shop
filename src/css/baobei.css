@@ -1,0 +1,132 @@
+* {
+  font-size: 0.75rem;
+}
+.head-head {
+  width: 21.875rem;
+  margin: 0.5rem 0.5rem;
+}
+.head-homepage {
+  height: 1.875rem;
+  width: 1.875rem;
+  float: right;
+  background-image: url("../images/51.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.head-search {
+  height: 2rem;
+  width: 19.5rem;
+  background-color: #e3e3e5;
+  border-radius: 0.5rem;
+}
+.head-search input {
+  background-color: #e3e3e5;
+  line-height: 2rem;
+  height: 2rem;
+  width: 14rem;
+}
+.head-search select {
+  background-color: #e3e3e5;
+  line-height: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  color: #999999;
+}
+.head-search:after {
+  content: "";
+  display: block;
+  height: 1.875rem;
+  width: 1.875rem;
+  float: right;
+  background-image: url("../images/52.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 0;
+}
+nav {
+  overflow: hidden;
+}
+nav select {
+  margin: 0.25rem 1.5625rem;
+  width: 4.375rem;
+}
+nav .content-nav p {
+  line-height: 1.5rem;
+  text-align: center;
+}
+.content-left {
+  width: 20.25rem;
+  border: 0.0625rem solid #999999;
+  padding: 0.3125rem 0 0.3125rem;
+  overflow: hidden;
+  float: left;
+  border-right: 0;
+  border-left: 0;
+}
+.content-nav {
+  height: 1.5rem;
+  float: left;
+  box-sizing: border-box;
+  border-right: 0.0625rem solid #999999;
+  border-left: 0;
+}
+.content-price {
+  width: 8.25rem;
+}
+.content-mass {
+  width: 6rem;
+}
+.content-filter {
+  width: 6rem;
+  text-align: center;
+  border-right: 0;
+}
+.content-filter span {
+  display: inline-block;
+  margin-top: 0.25rem;
+}
+.content-filter span:before {
+  content: "";
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  float: left;
+  margin-top: 0.125rem;
+  background-image: url("../images/57.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.content-change {
+  width: 3.1875rem;
+  height: 2.25rem;
+  border: 0.0625rem solid #999999;
+  border-right: 0;
+  background-image: url("../images/58.png");
+  background-repeat: no-repeat;
+  background-size: 38%;
+  background-position: 50%;
+}
+.content-list li {
+  height: 15rem;
+  width: 11.71875rem;
+  float: left;
+  border: 0.0625rem solid #ddd;
+  box-sizing: border-box;
+}
+.content-list li p {
+  text-indent: 0.75rem;
+  font-size: 0.875rem;
+}
+.content-wares a {
+  display: block;
+  height: 11.25rem;
+}
+.content-wares a img {
+  width: 90%;
+  height: 90%;
+  margin: 10px;
+}
+.throughline {
+  text-decoration: line-through;
+  color: #ddd;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>categories</title>
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/categories.css">
+	<script type="text/javascript" src="js/libs/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script>
+	<script>
+      if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+            document.write('<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />');
+        } else if (/(Android)/i.test(navigator.userAgent)) {
+            document.write('<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />');
+        }
+  	</script>
+  	<script type="text/javascript">
+		!(function(doc, win) {
+		    var docEle = doc.documentElement,
+		        evt = "onorientationchange" in window ? "orientationchange" : "resize",
+		        fn = function() {
+		            var width = docEle.clientWidth;
+		            width && (docEle.style.fontSize = 16 * (width / 375) + "px");
+		        };
+		    win.addEventListener(evt, fn, false);
+		    doc.addEventListener("DOMContentLoaded", fn, false);		 
+		}(document, window));
+	</script>
+</head>
+<body>
+	<div class="body">
+		<header>
+			<div class="head">
+				<div class="head-list">
+					<ul>
+						<nav-list v-for="item in navList" v-bind:nav="item"></nav-list>
+					</ul>
+				</div>
+				<div class="head-show"></div>
+			</div>		
+		</header>
+		<section>
+			<header>
+				<a href="javascript:;">
+					<img src="./images2/1.jpg">
+				</a>
+			</header>
+			<div class="content-list">
+				<p class="list-title">中秋快乐</p>
+				<div class="list-mooncake">
+					<a href="javascript:;"><img src="./images2/2.jpg"></a>
+					<div class="list-banner">
+						<span>中秋欢喜团圆宴吃什么？</span>
+						<p class="list-r-cutline"></p>
+						<span>吃月饼</span>
+						<p class="list-l-cutline"></p>
+					</div>
+				</div>			
+				<div class="list-mad lists">
+					<ul>
+						<mid-list v-for="item in midList" v-bind:mid="item"></mid-list>
+					</ul>
+				</div>
+			</div>
+			<div class="content-list" id="content-recommend">
+				<p class="list-title">为你推荐</p>
+				<div class="list-mad lists">
+					<ul>	
+						<recommend-list v-for="item in recommendList" v-bind:recommend="item"></recommend-list>	
+					</ul>
+				</div>
+			</div>
+			<div class="content-list" id="content-woman">
+				<p class="list-title">女装</p>
+				<div class="list-mad lists">
+					<ul>	
+						<woman-list v-for="item in girlList" v-bind:woman="item"></woman-list>	
+					</ul>
+				</div>
+			</div>
+			<div class="content-list" id="content-man">
+				<p class="list-title">男装</p>
+				<div class="list-mad lists">
+					<ul>
+						<man-list v-for="item in manList" v-bind:man="item"></man-list>			
+					</ul>
+				</div>
+			</div>
+		</section>		
+	</div>
+</body>
+<script type="text/javascript" src="js/categories.js"></script>
+</html>

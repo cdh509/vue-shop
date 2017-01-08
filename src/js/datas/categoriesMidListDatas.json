@@ -1,0 +1,19 @@
+{
+	"errorCode": 0,
+	"errorMsg": "",
+	"start": 1,
+		"datas":[{
+			"listtype": "品大闸蟹",
+			"listlink": "./images2/3.jpg"
+		},{	
+			"listtype": "品红酒",
+			"listlink": "./images2/4.jpg"
+		},{	
+			"listtype": "饮桂花酒",
+			"listlink": "./images2/5.jpg"
+		},{	
+			"listtype": "吃石榴",
+			"listlink": "./images2/6.jpg"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"errorCode": 0,
+	"errorMsg": "",
+	"start": 1,
+		"datas":[{
+			"listtype": "categories.html",
+			"listlink": "当前"
+		},{	
+			"listtype": "#/author",
+			"listlink": "为你推荐"
+		},{	
+			"listtype": "#/autho",
+			"listlink": "女装"
+		},{	
+			"listtype": "#/auth",
+			"listlink": "男装"
+		},{	
+			"listtype": "#/aut",
+			"listlink": "鞋靴"
+		},{	
+			"listtype": "#/au",
+			"listlink": "箱包"
+		},{	
+			"listtype": "#/a",
+			"listlink": "内衣配件"
+		},{	
+			"listtype": "#/0",
+			"listlink": "手机数码"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"errorCode": 0,
+	"errorMsg": "",
+	"start": 1,
+		"datas":[{
+			"listtype": "衬衫",
+			"listlink": "./images2/7.jpg"
+		},{	
+			"listtype": "套头衫",
+			"listlink": "./images2/8.jpg"
+		},{	
+			"listtype": "大码",
+			"listlink": "./images2/9.jpg"
+		},{	
+			"listtype": "厚底鞋",
+			"listlink": "./images2/10.jpg"
+		},{
+			"listtype": "高帮鞋",
+			"listlink": "./images2/11.jpg"
+		},{	
+			"listtype": "撞色包",
+			"listlink": "./images2/12.jpg"
+		},{	
+			"listtype": "短袖t恤",
+			"listlink": "./images2/13.jpg"
+		},{	
+			"listtype": "短裤",
+			"listlink": "./images2/14.jpg"
+		},{	
+			"listtype": "九分裤",
+			"listlink": "./images2/15.jpg"
+		},{	
+			"listtype": "牛仔衬衫",
+			"listlink": "./images2/16.jpg"
+		},{	
+			"listtype": "休闲鞋",
+			"listlink": "./images2/17.jpg"
+		},{
+			"listtype": "石英表",
+			"listlink": "./images2/18.jpg"
+		},{	
+			"listtype": "中老年",
+			"listlink": "./images2/19.jpg"
+		},{	
+			"listtype": "内衣",
+			"listlink": "./images2/20.jpg"
+		},{	
+			"listtype": "家居服",
+			"listlink": "./images2/21.jpg"
+		}
+	]
+}

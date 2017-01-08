@@ -1,0 +1,39 @@
+{
+	"errorCode": 0,
+	"errorMsg": "",
+	"start": 1,
+		"datas": [{
+			"pnt": "content-tiaomao",
+			"link": "javascript:;",
+			"search": "当前店"
+		},{	
+			"pnt": "content-juhuasuan",
+			"link": "javascript:;",
+			"search": "附近"
+		},{	
+			"pnt": "content-daojia",
+			"link": "javascript:;",
+			"search": "扫一扫"
+		},{	
+			"pnt": "content-waimai",
+			"link": "javascript:;",
+			"search": "保养查询"
+		},{	
+			"pnt": "content-chongzhi",
+			"link": "javascript:;",
+			"search": "充值"
+		},{	
+			"pnt": "content-alilvxing",
+			"link": "javascript:;",
+			"search": "外卖"
+		},{	
+			"pnt": "content-lingjinbi",
+			"link": "javascript:;",
+			"search": "领金币"
+		},{	
+			"pnt": "content-fenlei",
+			"link": "categories.html",
+			"search": "分类"
+		}
+	]
+}

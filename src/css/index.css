@@ -1,0 +1,33 @@
+.out {
+  width: 20rem;
+  margin: 50% auto 0;
+  text-align: center;
+}
+.out .percent {
+  display: block;
+  width: 1.875rem;
+  height: 1.875rem;
+}
+.out .bar {
+  position: relative;
+  height: 1.875rem;
+}
+.out .bar .one {
+  z-index: 11;
+  background-color: #0cc7b3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.875rem;
+  border-radius: 0.5rem;
+}
+.out .bar .two {
+  z-index: 10;
+  width: 20rem;
+  background-color: #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.875rem;
+  border-radius: 0.5rem;
+}

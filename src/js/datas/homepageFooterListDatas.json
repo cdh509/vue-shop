@@ -1,0 +1,19 @@
+{
+	"errorCode": 0,
+	"errorMsg": "",
+	"start": 1,
+		"datas": [{
+			"pnt": "foot-homepage",
+			"search": "首页"
+		},{	
+			"pnt": "foot-store",
+			"search": "商城"
+		},{	
+			"pnt": "foot-favorable",
+			"search": "优惠"
+		},{	
+			"pnt": "foot-my",
+			"search": "我的"
+		}
+	]
+}

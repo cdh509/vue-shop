@@ -1,0 +1,52 @@
+{
+	"errorCode": 0,
+	"errorMsg": "",
+	"start": 1,
+		"datas":[{
+			"listtype": "夹克",
+			"listlink": "./images2/man/1.jpg"
+		},{	
+			"listtype": "休闲裤",
+			"listlink": "./images2/man/2.jpg"
+		},{	
+			"listtype": "牛仔裤",
+			"listlink": "./images2/man/3.jpg"
+		},{	
+			"listtype": "棒球服",
+			"listlink": "./images2/man/4.jpg"
+		},{
+			"listtype": "卫衣",
+			"listlink": "./images2/man/5.jpg"
+		},{	
+			"listtype": "皮衣",
+			"listlink": "./images2/man/6.jpg"
+		},{	
+			"listtype": "T恤",
+			"listlink": "./images2/man/7.jpg"
+		},{	
+			"listtype": "衬衫",
+			"listlink": "./images2/man/8.jpg"
+		},{	
+			"listtype": "牛仔衬衫",
+			"listlink": "./images2/man/9.jpg"
+		},{	
+			"listtype": "Polo",
+			"listlink": "./images2/man/10.jpg"
+		},{	
+			"listtype": "马甲",
+			"listlink": "./images2/man/11.jpg"
+		},{
+			"listtype": "背心",
+			"listlink": "./images2/man/12.jpg"
+		},{	
+			"listtype": "打底衫",
+			"listlink": "./images2/man/13.jpg"
+		},{	
+			"listtype": "开衫",
+			"listlink": "./images2/man/14.jpg"
+		},{	
+			"listtype": "毛衣",
+			"listlink": "./images2/man/15.jpg"
+		}
+	]
+}

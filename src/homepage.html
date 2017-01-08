@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>homepage</title>
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/homepage.css">
+	<script type="text/javascript" src="js/libs/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.js"></script>
+	<script>
+      if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+            document.write('<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />');
+        } else if (/(Android)/i.test(navigator.userAgent)) {
+            document.write('<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />');
+        }
+  	</script>
+	<script type="text/javascript">
+		!(function(doc, win) {
+		    var docEle = doc.documentElement,
+		        evt = "onorientationchange" in window ? "orientationchange" : "resize",
+		        fn = function() {
+		            var width = docEle.clientWidth;
+		            width && (docEle.style.fontSize = 16 * (width / 375) + "px");
+		        };
+		    win.addEventListener(evt, fn, false);
+		    doc.addEventListener("DOMContentLoaded", fn, false);
+		 
+		}(document, window));
+	</script>
+</head>
+<body>
+	<div class="box">
+		<header class="float-lf">
+			<div class="head-search">
+			    <a href="baobei.html"><span>寻找宝贝店铺</span></a>
+			</div>
+		</header>
+		<section>
+			<div class="content-list">
+				<div class="content-roll">
+					<ul>
+						<roll-list v-for="(item,index) in rollList" v-bind:roll="item" :class="{ showType : isShow === index }"></roll-list>
+					</ul>
+				</div>			
+				<div class="content-sliding">
+					<ul>
+						<content-sliding v-for="(item,index) in rollList" v-bind:sliding="item" :class="{ ative : isShow === index }"></rcontent-sliding>
+					</ul>
+				</div>			
+			</div>
+			<div class="content-list">
+				<div class="content-search">
+					<ul>
+						<search-list v-for="item in searchList" v-bind:search="item"></search-list>
+					</ul>
+				</div>
+				<div class="content-headline">
+					<a href="javascript:;"></a>
+				</div>
+				<div class="content-newest"></div>
+			</div>
+			<div class="content-list">
+				<div class="content-midlist">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content-list">				
+				<div class="content-benefit">
+					<div class="content-cutline">
+						<a>
+							<span>超实惠</span>
+						</a>
+					</div>
+					<cpmbig  v-for="benefit in cpmbigList" v-bind:cpmbig="benefit">
+						<content-benefit v-for="item in benefit.benefit1" v-bind:benefit="item"></content-benefit>
+					</cpmbig>
+				</div>				
+				<div class="content-benefit">
+					<div class="content-cutline">
+						<a>
+							<span>好品质</span>
+						</a>
+					</div>
+					<cpmbig  v-for="benefit in cpmbigList" v-bind:cpmbig="benefit">
+						<content-benefit v-for="item in benefit.benefit2" v-bind:benefit="item"></content-benefit>
+					</cpmbig>
+				</div>		
+				<div class="content-benefit">
+					<div class="content-cutline">
+						<a>
+							<span>有特色</span>
+						</a>
+					</div>	
+					<cpmbig  v-for="benefit in cpmbigList" v-bind:cpmbig="benefit">
+						<content-benefit v-for="item in benefit.benefit3" v-bind:benefit="item"></content-benefit>
+					</cpmbig>
+				</div>
+			</div>
+			<div class="content-list">
+				<div class="content-made">
+					<div class="content-morehot">
+						<p>更多</p>
+						<div class="content-morehotgo"></div>
+					</div>		
+					<div class="content-hotmarket">
+							<div class="content-hotmarket-logo"></div>
+							<p>热门市场</p>
+					</div>
+				</div>
+				<div class="content-outfit">
+					<p>品质穿搭</p>
+					<p>制造品味</p>
+					<div class="content-picture content-taste"><img src="./images/40.jpg"></div>
+				</div>
+				<div class="content-outfit">
+					<p>腔调</p>
+					<p>流行尖货</p>
+					<div class="content-picture content-goodtip"><img src="./images/41.jpg"></div>
+				</div>
+				<div class="content-necessary">
+					<ul>
+						<necessary-list v-for="item in necessaryList" v-bind:necessary="item"></necessary-list>
+					</ul>
+				</div>
+				<div class="content-drinks">
+					<a href="javascript:;"><img src="./images/38.jpg"></a>
+				</div>
+			</div>
+			<div class="content-list">
+				<div class="content-benefit">
+					<div class="content-cutline">
+						<a>
+							<span>猜你喜欢</span>
+						</a>
+					</div>
+				</div>				
+			</div>			
+			<div class="content-list">
+				<div class="content-bottom">
+					<ul>
+						<li><p>登录</p></li>
+						<li><p>注册</p></li>
+						<li><p>电脑版</p></li>
+						<li><p>用户反馈</p></li>
+					</ul>
+					<div class="content-servicecenter">
+						<div class="content-watermark"></div>
+						<p>2016xxx服务中心</p>
+					</div>			
+				</div>
+			</div>		
+		</section>
+		<footer>
+			<ul>
+				<footer-list v-for="item in footerList" v-bind:footer="item"></footer-list>
+			</ul>
+		</footer>	
+	</div>
+</body>
+<script type="text/javascript" src="js/homepage.js"></script>
+</html>
